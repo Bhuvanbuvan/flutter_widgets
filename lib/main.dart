@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/absorbpointer.dart';
+import 'package:flutter_widgets/aleardialog.dart';
+import 'package:flutter_widgets/flutteralign.dart';
 import 'package:flutter_widgets/widget001.dart';
+import 'package:flutter_widgets/widget002.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -30,10 +34,15 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
-        title: Text("Flutter Widgets"),
+        backgroundColor: Colors.blueGrey,
+        title: const Text(
+          "Flutter Widgets",
+          style: TextStyle(color: Colors.white),
+        ),
       ),
-      body: Widget001(),
+      body: const Flutteralign(),
     );
   }
 }
