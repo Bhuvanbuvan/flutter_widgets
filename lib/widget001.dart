@@ -16,7 +16,7 @@ class _Widget001State extends State<Widget001> {
             setState(() {
               showDialog(
                   context: context,
-                  builder: (context) => AboutDialog(
+                  builder: (context) => const AboutDialog(
                         applicationIcon: FlutterLogo(),
                         applicationLegalese: 'Legalese',
                         applicationName: 'Flutter Widgets',

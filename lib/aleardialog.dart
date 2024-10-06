@@ -21,16 +21,16 @@ class _AleardialogState extends State<Aleardialog> {
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
-                  child: Text("Close"),
+                  child: const Text("Close"),
                 ),
               ],
-              title: Text("This is AlertDialog"),
-              contentPadding: EdgeInsets.all(30),
-              content: Text("wellcome to my Flutter widget Project..."),
+              title: const Text("This is AlertDialog"),
+              contentPadding: const EdgeInsets.all(30),
+              content: const Text("wellcome to my Flutter widget Project..."),
             ),
           );
         },
-        child: Text("Alert Dialog Button!.."),
+        child: const Text("Alert Dialog Button!.."),
       ),
     );
   }

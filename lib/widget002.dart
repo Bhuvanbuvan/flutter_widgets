@@ -5,7 +5,7 @@ class Widget002 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: AboutListTile(
         applicationIcon: FlutterLogo(),
         applicationLegalese: 'Legalese',

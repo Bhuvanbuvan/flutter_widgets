@@ -10,7 +10,7 @@ class Flutteralign extends StatelessWidget {
         height: 200,
         width: 400,
         color: Colors.grey,
-        child: Align(
+        child: const Align(
           alignment: Alignment.topRight,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.end,

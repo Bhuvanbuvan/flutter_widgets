@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/absorbpointer.dart';
 import 'package:flutter_widgets/aleardialog.dart';
+import 'package:flutter_widgets/animatedalign.dart';
+import 'package:flutter_widgets/animatedbuilder.dart';
 import 'package:flutter_widgets/flutteralign.dart';
 import 'package:flutter_widgets/widget001.dart';
 import 'package:flutter_widgets/widget002.dart';
@@ -42,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(color: Colors.white),
         ),
       ),
-      body: const Flutteralign(),
+      body: const Animatedbuilder(),
     );
   }
 }
