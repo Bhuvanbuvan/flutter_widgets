@@ -26,8 +26,17 @@ class _AnimatedbuilderState extends State<Animatedbuilder>
     return Center(
       child: AnimatedBuilder(
         animation: _controller,
-        child: FlutterLogo(
-          size: 50,
+        child: Container(
+          height: 50,
+          width: 50,
+          child: Column(
+            children: [
+              Text(
+                "data",
+                style: TextStyle(color: Colors.white),
+              )
+            ],
+          ),
         ),
         builder: (BuildContext context, Widget? child) {
           return Transform.rotate(
